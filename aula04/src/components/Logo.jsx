@@ -1,10 +1,10 @@
 import style from './Logo.css';
 
 function Logo(){
-    const url ="";
+    const url ="https://www.svgrepo.com/show/489120/school.svg";
     const texto = "Logo da Aplicacao"
     return (
-        <img classNamesrc= "logo"{prps} src={url} alt={texto}/>
+        <img classNamesrc= "logo" src={props.imagem} alt={props.texto}/>
     );
 }
 
